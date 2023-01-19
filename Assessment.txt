@@ -29,6 +29,68 @@ The advantages of Spring are,
 -It is easy to test using dependency injection
 -It has high flexibility
 
+Q4. What are the different features of Spring Framework?
+
+Features of Spring are
+-It provides pluggability
+-It supports Dependency Injection in two forms : Constructor injection & Setter Injection
+-It supports AOP (Aspect Oriented Programming)
+-It provides containers thus easy to manage garbage
+-It is Light weight and lossly coupled
+
+Q5. How many modules are there in Spring Framework and what are they?
+
+Q6. What is a Spring configuration file?
+
+It is an XML file where we configure the beans.
+
+Q7. What are the different components of a Spring application?
+
+-beans
+-contexts
+-containers
+
+Q8. What are the various ways of using Spring Framework?
+
+We can use spring using BeanFactory and ApplicationContext. Nowdays ApplicationContext is prefered over BeansFactory and BeanFactory is used only for console applications.
+
+Q9. What is Spring IOC Container?
+
+Spring IOC containers are containers they carry beans.
+The two IOC containers are
+-BeanFactory
+-ApplicationContext
+ApplicationContext is built over the BeanFactory and it is used to create web applications.
+
+Q10. What do you mean by Dependency Injection?
+
+Dependency injection provides the ways to initialize an object using beans. Here we provide the values in the configuration file and then initialize an object in the test class using these beans.
+
+
+Q11. How to install spring boot in IntelliJ IDEA?
+step1: download spring boot jre
+step2: go to file->project_structure->libraries->'+sign' and then Select the libraries
+
+Q12. Please change default server port from 8080 to 9090? 
+
+We can change the port number in settings.gradle
+
+Q13. How to resolve whitelabel error page in spring boot application?
+
+
+Q14. How are i18n and localization supported in Spring MVC?
+
+
+Q15. Differentiate between a Bean Factory and an Application Context.
+
+Both the BeanFacory and ApplicationContext are two IOC containers available in Spring.
+
+BeanFactory is the basic container which is used to create console application and Application context is used to create web applications.
+
+ApplicationContext is built over BeansFactory
+
+Q16. Difference between Autowired , Inject and Qualifier Annotation
+
 
 Section B
 
